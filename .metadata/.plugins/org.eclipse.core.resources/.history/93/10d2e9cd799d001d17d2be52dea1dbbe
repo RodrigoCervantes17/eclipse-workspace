@@ -1,0 +1,13 @@
+package bytebanco;
+
+public class TestGerente {
+
+	public static void main(String[] args) {
+		// Gerente Juancho = new Gerente();
+		Funcionario Juancho = new Funcionario();
+		
+		Juancho.setSalario(5000.0);
+		Juancho.setTipo(2);
+		System.out.println(Juancho.getBonificacion());
+}
+}

@@ -1,0 +1,9 @@
+package bytebanco;
+
+public class TestGerente {
+
+	public static void main(String[] args) {
+		Gerente Juancho = new Gerente();
+		Juancho.setsalario("5000")
+}
+}

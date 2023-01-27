@@ -1,0 +1,14 @@
+package imsickofthisshit;
+
+public class ifforfirsttime {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		int edad = 15;
+		if (edad >= 18) {
+			System.out.println("Si, usted es mayor a 18.");
+			System.out.println("Bienvenido.");
+		}
+		
+	}
+
+}

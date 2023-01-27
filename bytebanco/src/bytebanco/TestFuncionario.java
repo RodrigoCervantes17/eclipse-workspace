@@ -1,0 +1,14 @@
+package bytebanco;
+
+public class TestFuncionario {
+
+	public static void main(String[] args) {
+		Empleado diego = new Empleado();
+		diego.setDocumentoIdentidad("539215");
+		diego.setNombre("Diego");
+		diego.setSalario(5000.0);
+		System.out.println(diego.getSalario());
+		System.out.println(diego.getBonificacion());
+		
+	}
+}
